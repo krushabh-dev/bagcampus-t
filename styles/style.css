@@ -1,0 +1,365 @@
+html{
+    scroll-behavior: smooth;
+}
+a {
+    cursor: pointer;
+}
+
+.fix-bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+#nav{
+   min-height: 60px;
+}
+
+.navbar .li-bag{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.navbar{
+    background: white;
+}
+
+.navbar-b.navbar-trans .nav-link, .navbar-b.navbar-reduce .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.nav-link {
+    display: block;
+}
+
+.navbar-brand img{
+    width: 145px;
+}
+
+.navbar-b.navbar-reduce .navbar-toggler span {
+    background-color: #1B1B1B;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: var(--dark);
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+
+.display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.intro {
+    height: 50vh;
+    position: relative;
+    color: var(--dark);
+    text-align: center; 
+    color: white;
+}
+
+.intro .intro-title {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title-box {
+    text-align: center!important;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.title-a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#Jobs{
+    background: whitesmoke;
+}
+
+.service-box {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+}
+
+
+#service{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#service .svg-stat {
+    position: absolute;
+    left: 0;
+    max-width: 1500px;
+    right: 0;
+    min-height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-app {
+    background-color: #56b9d0;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.get-app .heading h4 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.primary-white-button a {
+    display: inline-block;
+    background-color: #fff;
+    color: #4faabf;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.h2bol{
+    position: relative;
+    }
+
+.h2bol span{
+  color:inherit;
+  display:none;
+  font-size: small;
+  }
+
+.spl-bar{
+    height: 420px;
+    text-align: center;
+}
+
+.Spl-bannr h2{
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.spl-bar .title-box{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/*location */
+
+@media (max-width: 576px){
+#location .title-box {
+    margin-bottom: 1rem;
+}
+.location{
+    flex-wrap: initial;
+    overflow: scroll;
+}
+}
+.location .display-table {
+    margin-bottom: 10px;
+}
+.location-title {
+    font-size: 40px;
+    opacity: 0.6;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+.bannr-txt{
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.bannr-txt{
+    height: 420px;
+}
+
+.bannr-txt h1{
+  color: white;
+}
+
+.bannr-txt h1 {
+    font-family: "Lato-Light";
+    font-size: 48px;
+    max-width: 500px;
+    margin-top: 60px;
+}
+
+.bannr-txt p {
+    max-width: 450px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+.li-btn {
+    display: inline;
+    padding: 10px 30px;
+}
+
+.li-bag {
+    background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    font-size: 18px;
+    font-family: "OpenSans-Semibold";
+    color: #fff;
+    border-radius: 50px;
+}
+
+.blog-content {
+    height: 360px;
+}
+
+@media (max-width: 767px){
+    .blog-content {
+        height: fit-content;
+    }
+}
+
+/* sip_carous */
+
+.sip_carous{
+  position: relative;
+  padding: 8rem 0;
+}
+
+.row_center {
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h3 {
+    font-size: 36px;
+    color: #413e66;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+
+.overlay-mf {
+    background-color: #0078ff;
+}
+
+#Subscribe {
+    padding: 30px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form_subribe {
+    border-radius: 75px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+form {
+    position: relative;
+}
+
+.form_subribe input {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border: none;
+    height: 60px;
+    padding: 0 170px 0 25px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.form_subribe button {
+    background: #f06008;
+    border: none;
+    color: #fff;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+@media (max-width: 768px){
+.form_subribe button {
+    background: #f06008;
+    border: none;
+    color: #fff;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 130px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 62px;
+}
+}
+button, input {
+    overflow: visible;
+}
+
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 340px;
+    margin: 1.75rem auto;
+}
+}
