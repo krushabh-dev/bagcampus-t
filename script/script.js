@@ -1,12 +1,22 @@
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:1,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true
-});
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        480: {
+            items: 2
+        },
+        769: {
+            items: 3
+        }
+    }
+})
 
 var btxt = document.getElementById('btxt');
 var word = btxt.getElementsByTagName('span');
