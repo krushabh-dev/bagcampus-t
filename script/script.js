@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 var owl = $('.owl-carousel');
+=======
+
+>>>>>>> a11aebe7cf7aaf149e95d9dacb5df7d2ba687902
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
